@@ -71,7 +71,7 @@ def trigger_cinematic(match_pos):
 if __name__ == "__main__":
     references = load_references()
     print("Loaded reference images.")
-    cooldown = 30
+    cooldown = 100
     last_trigger = 0
 
     while True:
